@@ -130,23 +130,35 @@ const themeToggleButton = document.getElementById('theme-toggle');
 
 
 
-            let filterOption = document.getElementById("filterProducts");
-            filterOption.children[0].classList.add("active");
-            if(filterOption){
-                [...filterOption.children].slice(1,3).forEach(child=>{
-                    child.addEventListener("click",function(){
-                        [...filterOption.children].forEach(item => {
-                            item.classList.remove("active");
-                        });
-                        this.classList.toggle("active");
+            // let filterOption = document.getElementById("filterProducts");
+            // filterOption.children[0].classList.add("active");
+            // if(filterOption){
+            //     [...filterOption.children].slice(1,3).forEach(child=>{
+            //         child.addEventListener("click",function(){
+            //             [...filterOption.children].forEach(item => {
+            //                 item.classList.remove("active");
+            //             });
+            //             this.classList.toggle("active");
+            //         });
+            //     });
+            // }
+
+
+
+
+
+            document.querySelectorAll('#filterProducts h2').forEach(item => {
+                item.addEventListener('click', () => {
+                    // Remove 'active' class from all h2 elements
+                    document.querySelectorAll('#filterProducts h2').forEach(h => {
+                        h.classList.remove('active');
                     });
+                    
+                    // Add 'active' class to the clicked element
+                    item.classList.add('active');
                 });
-            }
-
-
-
-
-
+            });
+            
 
 
 
