@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Classic T-Shirt",
+    "category": "Clothing",
+    "image": "./images/product-1.jpg",
+    "original_price": 29.99,
+    "discounted_price": 19.99,
+    "New": "New",
+    "availability": 12,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "title": "Stylish Sneakers",
+    "category": "Shoes",
+    "image": "./images/product-2.jpg",
+    "original_price": 49.99,
+    "Hot": "Hot",
+    "discounted_price": 39.99,
+    "availability": 8,
+    "rating": 4.0
+  },
+  {
+    "id": 3,
+    "title": "Elegant Watch",
+    "category": "Accessories",
+    "image": "./images/product-3.jpg",
+    "original_price": 79.99,
+    "discounted_price": 59.99,
+    "New": "New",
+    "availability": 5,
+    "rating": 4.8
+  },
+  {
+    "id": 4,
+    "title": "Designer Backpack",
+    "category": "Bags",
+    "image": "./images/product-4.jpg",
+    "original_price": 69.99,
+    "Hot": "Hot",
+    "discounted_price": 49.99,
+    "availability": 3,
+    "rating": 4.2
+  },
+  {
+    "id": 5,
+    "title": "Classic Sneakers",
+    "category": "Shoes",
+    "image": "./images/product-5.jpg",
+    "original_price": 59.99,
+    "discounted_price": 49.99,
+    "New": "New",
+    "availability": 10,
+    "rating": 4.3
+  },
+  {
+    "id": 6,
+    "title": "Stylish Handbag",
+    "category": "Accessories",
+    "image": "./images/product-6.jpg",
+    "original_price": 29.99,
+    "Hot": "Hot",
+    "discounted_price": 19.99,
+    "availability": 15,
+    "rating": 4.0
+  }
+]

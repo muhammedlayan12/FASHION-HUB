@@ -1,0 +1,284 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.hero-content {
+  position: absolute;
+  top: 35%;
+  right: 0; 
+}
+
+
+.hero-content .content{
+    
+    text-align: start;
+}
+
+.content span{
+    font-family: 'Poppins',sans-serif;
+    color: red;
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+}
+
+
+
+
+.content h1{
+    font-family: 'Poppins',sans-serif;
+    color:Black;
+    font-size: 2.2em;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+    margin-top: 1vmin;
+}
+
+
+.content p{
+    font-size: 0.9em;
+    color: #333;
+    font-family: 'Nunito Sans',sans-serif;
+    margin-top: 1vmin;
+}
+
+
+.content button{
+    padding: 1.3vmin 3.6vmin;
+    font-size: 1.1em;
+    color: white;
+    background-color: black;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 0.1em;
+    transition: all 0.5s ease;
+}
+
+
+
+
+.content button:hover{
+    border: 1px solid black;
+    color: black;
+    background: none;
+}
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero .img{
+    text-align: center;
+}
+
+.hero .img img{
+    width: 300px;
+}
+.hero .content{
+
+    text-align: center;
+}
+
+.hero .content span{
+    font-family: 'Poppins',sans-serif;
+    color: red;
+    font-size: 1.1em;
+    letter-spacing: 0.2em;
+}
+
+
+
+
+.hero .content h1{
+    font-family: 'Poppins',sans-serif;
+    color:Black;
+    font-size: 2.2em;
+    font-weight: bolder;
+    line-height: 1;
+    margin-top: 1vmin;
+}
+
+
+.hero .content p{
+    font-size: 0.9em;
+    color: #333;
+    font-family: 'Nunito Sans',sans-serif;
+    margin-top: 1.5vmin;
+}
+
+
+.hero .content button{
+    padding: 1.3vmin 3.6vmin;
+    font-size: 1.1em;
+    color: white;
+    background-color: black;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: 0.1em;
+    margin-top: 1.5vmin;
+    transition: all 0.5s ease;
+}
+
+
+
+
+.hero .content button:hover{
+    border: 1px solid black;
+    color: black;
+    background: none;
+}
+
+
+@media screen and (max-width:1200px) {
+    .hero-content{
+        top: 25%;
+    }
+
+    .content span{
+        font-size: 0.9em;
+    }
+
+    .content h1{
+        font-size: 1.9em;
+    }
+
+    .content p{
+        font-size: 0.8em;
+    }
+
+    .content button{
+        padding: 1.1vmin 3.3vmin;
+        font-size: 1em;
+    }
+}
+
+
+
+.new{
+    position: absolute;
+    top:8%;
+    left: 0 !important;
+    padding: 0.2vmin 0.5vmin  0.2vmin  0.5vmin;
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.7em;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+.hot{
+    position: absolute;
+    top:8%;
+    left: 0 !important;
+    padding: 0.2vmin 0.5vmin  0.2vmin  0.5vmin;
+    font-family: 'Poppins',sans-serif;
+    font-size: 0.7em;
+    background-color: black;
+    color: white;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
+    .hero-content{
+        top: 20%;
+    }
+
+    .content span{
+        font-size: 0.7em;
+    }
+
+    .content h1{
+        font-size: 1.5em;
+    }
+
+    .content p{
+        font-size: 0.6em;
+    }
+
+    .content button{
+        padding: 0.9vmin 2.9vmin;
+        font-size: 0.9em;
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    #carouselExampleCaptions{
+        display: none;
+    }
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .hero .img{
+        text-align: center;
+    }
+
+    .hero .img img{
+        width: 220px;
+    }
+
+    .hero .content{
+    
+        text-align: center;
+    }
+    
+    .hero .content span{
+        font-family: 'Poppins',sans-serif;
+        color: red;
+        font-size: 0.7em;
+        letter-spacing: 0.15em;
+    }
+    
+    
+    
+    
+    .hero .content h1{
+        font-family: 'Poppins',sans-serif;
+        color:Black;
+        font-size: 1.5em;
+        font-weight: bolder;
+        line-height: 1;
+        margin-top: 1vmin;
+    }
+    
+    
+    .hero .content p{
+        font-size: 0.55em;
+        color: #333;
+        font-family: 'Nunito Sans',sans-serif;
+        margin-top: 1.5vmin;
+    }
+    
+    
+    .hero .content button{
+        padding: 1.3vmin 3.6vmin;
+        font-size: 0.8em;
+        color: white;
+        background-color: black;
+        border: none;
+        font-family: 'Poppins',sans-serif;
+        letter-spacing: 0.1em;
+        margin-top: 1.5vmin;
+        transition: all 0.5s ease;
+    }
+    
+}
